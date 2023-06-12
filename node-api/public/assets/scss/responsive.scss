@@ -1,0 +1,11 @@
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+ 
+    
+    #Summary , #Errors, #Warnings , #logviewer-Errors, #logviewer-Warnings {
+        p{
+            // font-size: 16px !important;
+        }
+    }
+}
