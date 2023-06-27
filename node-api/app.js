@@ -29,7 +29,7 @@ mongoose.connect(config.db, {
 
 const app = express();
 app.use(session({
-    secret: '64d0be94187e7aeabc6ebc7c336bfd51',
+    secret: '',
     // name: cookie_name,
     // store: sessionStore, // connect-mongo session store
     proxy: true,
